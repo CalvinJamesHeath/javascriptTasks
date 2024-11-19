@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JavaScript</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Tasks</h1>
+		</header>
+
+		<main>
+			<section>
+				<h2>Reverse String</h2>
+				<input type="text" id="reverseInput" placeholder="String" />
+				<button onclick="reverseString()">Reverse</button>
+				<p id="reversed"></p>
+			</section>
+			<section>
+				<h2>FizzBuzz</h2>
+				<button onclick="fizzBuzz()">Run FizzBuzz</button>
+				<div id="fizzbuzzOutput"></div>
+			</section>
+			<section>
+				<h2>Even or Odd</h2>
+				<input type="number" id="evenOddInput" placeholder="Number" />
+				<button onclick="checkEvenOrOdd()">Test</button>
+				<p id="evenOddOutput"></p>
+			</section>
+			<section>
+				<h2>Interactive Feature</h2>
+				<p id="interactiveText">Click the button below to change this text!</p>
+				<button onclick="changeText()">Change</button>
+			</section>
+		</main>
+	</body>
+	<script src="script.js"></script>
+</html>
