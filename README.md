@@ -1,2 +1,1 @@
-# JavaScript Tasks 
-## [Deployed Version](https://calvinjamesheath.github.io/javascriptTasks/)
+# [Deployed Version](https://calvinjamesheath.github.io/javascriptTasks/)
